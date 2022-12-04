@@ -8,7 +8,6 @@
 body {
   body {
     font-family: "Open Sans", sans-serif;
-    background: hsl(210, 36%, 96%);
     color: hsl(209, 61%, 16%);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -55,6 +54,7 @@ a {
 
 .container {
   min-height: 100vh;
+  background: hsl(210, 36%, 96%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +73,7 @@ h2 {
   padding: 1rem;
   border-radius: 0.25rem;
   margin-bottom: 2.5rem;
+  text-transform: capitalize;
 }
 
 .btn {
